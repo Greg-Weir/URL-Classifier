@@ -1,2 +1,3 @@
 # URL-Classifier
-2018 BEng Honours Project to classify unseen phishing URLs
+This code was submitted as part of my 2018 Honours Project for the degree of BEng Digital Security, Forensics & Ethical Hacking. 
+
