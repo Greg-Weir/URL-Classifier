@@ -114,7 +114,7 @@ def extract_features(url_list, classification, number):
 
 def pull_urls():
     """Uses PhishTank API to pull CSV and uses extracts features"""
-    url = 'http://data.phishtank.com/data/089feb8444c6352a03e6e7c429f637e4d4be99c2bdec0c8a1429e72092603f97/online' \
+    url = 'http://data.phishtank.com/data/<API-KEY>/online' \
           '-valid.csv'
     with closing(requests.get(url, stream=True)) as r:
         reader = csv.reader(codecs.iterdecode(r.iter_lines(), 'utf-8'), delimiter=',', quotechar='"')
